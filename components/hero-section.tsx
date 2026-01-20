@@ -8,13 +8,14 @@ export function HeroSection() {
       <div className="grid w-full max-w-6xl grid-cols-1 items-center gap-12 lg:grid-cols-[350px_1fr]">
         <div className="relative mx-auto lg:mx-0">
           <div className="relative aspect-[2/3] w-72 overflow-hidden rounded-2xl border-2 border-primary/20 bg-muted/10 lg:w-80">
-            <Image
-              src="/images/profile.png"
-              alt="Miguel Angel - Profile Photo"
-              fill
-              className="object-cover object-top"
-              priority
-            />
+        <Image
+  src="/images/profile.png"
+  alt="Miguel Angel - Profile Photo"
+  fill
+  sizes="(max-width: 1024px) 100vw, 320px"
+  className="object-cover object-top"
+  priority
+/>
           </div>
           {/* Decorative glow effect */}
           <div className="absolute -inset-1 -z-10 rounded-2xl bg-gradient-to-br from-primary/30 to-accent/30 blur-xl" />
@@ -25,7 +26,7 @@ export function HeroSection() {
             Miguel Angel
           </h1>
           <p className="mb-6 font-mono text-lg text-primary md:text-xl">
-            Full-Stack Developer
+            Developer
           </p>
           <p className="mb-8 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
             Passionate coder from Colombia with experience in JavaScript, React, Node.js, PHP, Laravel, Java, and MySQL. 
