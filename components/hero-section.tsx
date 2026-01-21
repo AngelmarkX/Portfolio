@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { Github, Linkedin, Mail } from 'lucide-react'
 
-const basePath = process.env.NODE_ENV === 'production' ? '/portfolio' : ''
+const basePath = '/Portafolio'
 
 export function HeroSection() {
   return (

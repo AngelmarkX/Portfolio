@@ -10,8 +10,8 @@ const nextConfig = {
   // Cambia 'tu-repositorio' por el nombre de tu repositorio en GitHub
   // Si tu repo es: github.com/AngelmarkX/portfolio -> basePath: '/portfolio'
   // Si usas un dominio personalizado o es username.github.io, deja basePath vacío
-  basePath: process.env.NODE_ENV === 'production' ? '/Portfolio' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/Portfolio' : '',
+  basePath: '/Portafolio',
+  assetPrefix: '/Portafolio',
 }
 
 export default nextConfig
