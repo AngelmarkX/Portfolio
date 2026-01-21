@@ -11,8 +11,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Miguel Angel - Full-Stack Developer',
-  description: 'Portfolio of Miguel Angel, a passionate full-stack developer from Colombia specializing in JavaScript, React, Node.js, PHP, Laravel, Java, and MySQL.',
+  title: 'Miguel Angel - Developer',
+  description: 'Portfolio of Miguel Angel, a passionate developer from Colombia specializing in JavaScript, Java, NodeJS and MySQL.',
     generator: 'v0.app'
 }
 
