@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { Github, Linkedin, Mail } from 'lucide-react'
 
-const basePath = '/Portafolio'
+const basePath = '/Portfolio'
 
 export function HeroSection() {
   return (
