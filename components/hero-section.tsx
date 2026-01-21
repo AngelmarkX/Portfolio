@@ -24,7 +24,7 @@ export function HeroSection() {
             Miguel Angel
           </h1>
           <p className="mb-6 font-mono text-lg text-primary md:text-xl">
-            Full-Stack Developer
+            Developer
           </p>
           <p className="mb-8 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
             Passionate coder from Colombia with experience in JavaScript, React, Node.js, PHP, Laravel, Java, and MySQL. 
