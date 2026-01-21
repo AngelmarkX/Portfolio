@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 export function HeroSection() {
   return (
-    <section className="flex min-h-screen flex-col items-start justify-center px-6 py-20 md:px-20 lg:px-32">
-      <div className="grid w-full max-w-6xl grid-cols-1 items-center gap-12 lg:grid-cols-[350px_1fr]">
+    <section className="flex min-h-screen flex-col items-center justify-center px-6 py-20 md:px-20">
+      <div className="mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-12 lg:grid-cols-[350px_1fr]">
         <div className="relative mx-auto lg:mx-0">
           <div className="relative aspect-[2/3] w-72 overflow-hidden rounded-2xl border-2 border-primary/20 bg-muted/10 lg:w-80">
             <Image
@@ -25,7 +25,7 @@ export function HeroSection() {
             Miguel Angel
           </h1>
           <p className="mb-6 font-mono text-lg text-primary md:text-xl">
-            Developer
+            Full-Stack Developer
           </p>
           <p className="mb-8 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
             Passionate coder from Colombia with experience in JavaScript, React, Node.js, PHP, Laravel, Java, and MySQL. 
