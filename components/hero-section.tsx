@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { Github, Linkedin, Mail } from 'lucide-react'
-import Image from 'next/image'
+
+const basePath = process.env.NODE_ENV === 'production' ? '/portfolio' : ''
 
 export function HeroSection() {
   return (
@@ -8,12 +9,10 @@ export function HeroSection() {
       <div className="mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-12 lg:grid-cols-[350px_1fr]">
         <div className="relative mx-auto lg:mx-0">
           <div className="relative aspect-[2/3] w-72 overflow-hidden rounded-2xl border-2 border-primary/20 bg-muted/10 lg:w-80">
-            <Image
-              src="/images/profile.png"
+            <img
+              src={`${basePath}/images/profile.png`}
               alt="Miguel Angel - Profile Photo"
-              fill
-              className="object-cover object-top"
-              priority
+              className="h-full w-full object-cover object-top"
             />
           </div>
           {/* Decorative glow effect */}
